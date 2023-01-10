@@ -15,6 +15,10 @@ h2{
     text-align: center;
 }
 
+#tytul-pracownik,
+.pracownik{
+    margin-left: 10px;
+}
 
 .pracownik,
 .czas,
@@ -62,9 +66,9 @@ button{
     font-weight: 600;
     overflow: hidden;
     margin-top: 100px; 
-    margin-left: 550px;  
-    
+    margin-left: 550px;     
 }
+
 button:before {
     content: "";
     background-color: rgba(255,255,255,0.5);
@@ -91,5 +95,9 @@ button:hover:before{
 
 h3{
 text-align: center;
+}
+
+#najlepsi-pracownicy{
+    display: block;
 }
 
